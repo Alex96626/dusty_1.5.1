@@ -1,0 +1,61 @@
+:root {
+  --main-container: 1510px;
+}
+
+.page {
+  margin: 0;
+
+  font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.integrations {
+  box-sizing: border-box;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.integrations__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 48px;
+
+  padding: 0 0 0 24px;
+  list-style: none;
+}
+
+.integrations__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.integrations__name {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.75;
+  color: #241c15;
+
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow-wrap: anywhere;
+}
+
+.integrations__description {
+  margin: 4px 0 0;
+
+  font-size: 13px;
+  line-height: 1.25;
+  color:  #241c15a6;
+
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-wrap: anywhere;
+}
