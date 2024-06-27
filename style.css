@@ -15,11 +15,27 @@
   margin: 0 auto;
 }
 
+.title {
+  box-sizing: border-box;
+  max-width: 572px;
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.01;
+  letter-spacing: 0.01em;
+  color: #241c15;
+
+  overflow-wrap: anywhere;
+}
+
 .integrations__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 48px;
 
+  margin-top: 66px;
   padding: 0 0 0 24px;
   list-style: none;
 }
